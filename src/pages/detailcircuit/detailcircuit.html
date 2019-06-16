@@ -1,0 +1,124 @@
+<!--
+  Generated template for the DetailcircuitPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar> 
+    <ion-title class="titlescreen"><img class="iconback" src="../../assets/imgs/icon-back.png"/>Détail</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+	<ion-card class="boximg"> <!--Card img-->
+		<img class="imgdetail" src="../../assets/imgs/imglevelone.png"/>
+	</ion-card>
+	<ion-card> <!--Card description-->
+		<ion-card-content>
+			<ion-card-title>
+				<ion-grid>
+			  		<ion-row> <!--Ligne1-->
+						<ion-col col-8>
+							<h4>Mountain Blanco</h4>
+						</ion-col>
+						<ion-col col-4>
+							<img src="../../assets/imgs/Evaluation3.png"/>
+						</ion-col>
+					</ion-row>
+					<ion-row > <!--Ligne2-->
+						<ion-col col-4>
+							<button class="levelbtn" ion-button color="levelone">Intermédiaire</button>
+						</ion-col>
+						<ion-col col-8>
+							<ion-row>
+								<ion-col col-4>
+									<span><img class="icon" src="../../assets/imgs/icon-time.png"/><p>2à3h</p></span>
+								</ion-col>
+								<ion-col col-4>
+									<span><img class="icon" src="../../assets/imgs/icon-distance.png"/><p>7 km</p></span>
+								</ion-col>
+								<ion-col col-4>
+									<span><img class="icon" src="../../assets/imgs/icon-comments.png"/><p>10</p></span>
+								</ion-col>
+							</ion-row>
+						</ion-col>
+					</ion-row>
+					<ion-row> <!--Ligne3-->
+						<ion-col col-12 class="textdescription">
+							<p>Départ du parc naturel de Madère. La randonnée se trouve sur la cote Est de l'Ile, plus précisément; à la Pointe de St Laurent, tout au bout du Caniçal.
+
+							Loin des villes et de l'agitation, ce sentier vous offres
+							</p>
+							<p class="btnvp">voir plus</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>		
+		  	</ion-card-title>
+		</ion-card-content>
+	</ion-card>
+
+<!-- <ion-grid>
+	<ion-row>
+		<ion-col col-2>
+			<img src="../../assets/imgs/imglevelthree.png"/>
+		</ion-col>
+		<ion-col col-8>
+			<ion-slides paginationType="fraction" pager=true loop=true>
+				<ion-slide>
+					<img src="../../assets/imgs/imglevelthree.png"/>
+				</ion-slide>
+				<ion-slide>
+					<img src="../../assets/imgs/imgleveltwo.png"/>
+				</ion-slide>
+				<ion-slide>
+					<img src="../../assets/imgs/imglevelthree.png"/>
+				</ion-slide>
+			</ion-slides>
+		</ion-col>
+		<ion-col col-2>
+			<img src="../../assets/imgs/imglevelthree.png"/>
+		</ion-col>
+	</ion-row>
+</ion-grid> -->
+<ion-slides initialSlide=2 slidesPerView=3 spaceBetween=10 loop=true centeredSlides=true>
+	<ion-slide>
+		<img src="../../assets/imgs/imglevelthree.png"/>
+	</ion-slide>
+	<ion-slide>
+		<img src="../../assets/imgs/imgleveltwo.png"/>
+	</ion-slide>
+	<ion-slide>
+		<img src="../../assets/imgs/imglevelthree.png"/>
+	</ion-slide>
+	<ion-slide>
+		<img src="../../assets/imgs/imglevelthree.png"/>
+	</ion-slide>
+</ion-slides>
+
+<ion-card>
+	<ion-card-content text-center>
+		<ion-card-title>
+			<img src="../../assets/imgs/map.png"/>
+		</ion-card-title>
+		<button ion-button color="iconlight">Demarrer</button>
+	</ion-card-content>
+</ion-card>
+
+<ion-card>
+	<ion-list>
+		<ion-item>
+			<div>
+				<ion-avatar item-start>
+					<img src="../../assets/imgs/logo.png"> 
+				</ion-avatar>
+				<span text-center>Koera </span>
+				<span ion-end>
+					25/05/2019
+				</span>
+			</div>
+		</ion-item>
+	</ion-list>
+</ion-card>
+
+</ion-content>

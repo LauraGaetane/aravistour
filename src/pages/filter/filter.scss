@@ -1,0 +1,35 @@
+page-filter {
+	.titlescreen{
+		font-family: 'Montserrat Regular';
+		font-size:18px;
+		color:dark;
+		text-align:center;
+		}
+	.iconback{
+		width: 9%;
+		float:left; 
+	}
+	.iconrefresh{
+		width: 9%;
+		float:right; 
+	}
+	
+	ion-content{
+    	background-color:#E9E9E9!important;
+	}
+	ion-radio{
+		--color-checked:#12570;
+	}
+	.mybtn{
+		width: 100%;
+		font-family: 'Montserrat Regular';
+	}
+	h4{
+		font-family: 'Montserrat Regular';
+		font-size:14px;
+	}
+	ion-label{
+		font-family: 'Montserrat Regular';
+		font-size:12px;
+	}
+}

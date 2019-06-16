@@ -1,3 +1,25 @@
 page-home {
-
+	.bg-image{
+		background: url('../../assets/imgs/splash.png') no-repeat center center fixed;
+   		background-size: cover;
+	}
+	.splashpage {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.splashpage button{
+		border-radius:5px;
+		font-family: 'Montserrat Regular';
+		font-size:14px;
+	}
+	.center{
+		text-align:center;
+	}
+	.splashpage h1{
+		font-family: 'Montserrat Black';
+		font-size:18px;
+	}
 }

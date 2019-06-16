@@ -4,11 +4,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { ListcircuitPage } from '../pages/listcircuit/listcircuit';
+import { FilterPage } from '../pages/filter/filter';
+import { DetailcircuitPage } from '../pages/detailcircuit/detailcircuit';
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = HomePage;
+  rootPage:any = DetailcircuitPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

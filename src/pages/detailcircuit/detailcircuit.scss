@@ -1,0 +1,67 @@
+page-detailcircuit {
+	.titlescreen{
+		font-family: 'Montserrat Regular';
+		font-size:18px;
+		color:dark;
+		text-align:center;
+	}
+	.iconback{
+		width: 9%;
+		float:left; 
+	}
+	ion-content{
+    	background-color:#E9E9E9!important;
+	}
+	// CSS CARD IMAGE
+	.levelbtn{
+		color: #ffffff;
+		font-size: 12px;
+		font-family: 'Montserrat Regular';
+	}
+	.button-ios-levelone{
+		color: #ffffff;
+		font-size: 12px;
+		font-family: 'Montserrat Regular';
+	}
+	h4{
+		font-size: 14px;
+		font-family: 'Montserrat Regular';
+	}
+	.icon{
+		width: 35%;
+	}
+	.icon p{
+		color: #222222;
+		font-size: 8px;
+		font-family: 'Montserrat Regular';
+
+	}
+	.boximg{
+		height: 210px;
+	}
+	.imgdetail{
+		height: 100%;
+	}
+	.textdescription p{
+		font-size: 12px;
+		font-family: 'Montserrat Light';
+		text-align: justify;
+		line-height: 20px;
+	}
+	.textdescription .btnvp{
+		color: #2ECC71;
+		text-decoration: underline;
+		font-size: 10px;
+		font-family: 'Montserrat Regular';
+		float: right;
+	}
+	.card-title-md{
+		margin: 0!important;
+		padding: 0!important;
+	}
+	// CSS CARD IMAGE
+	ion-slides {
+		height: auto;
+	}
+
+}
