@@ -27,14 +27,14 @@ page-detailcircuit {
 		font-size: 14px;
 		font-family: 'Montserrat Regular';
 	}
-	.icon{
-		width: 35%;
+	.iconcircuit .icon{
+		// width: 35%;
+		font-size: 20px;
 	}
-	.icon p{
-		color: #222222;
-		font-size: 8px;
+	.texticon{
 		font-family: 'Montserrat Regular';
-
+		font-size: 14px;
+		margin-left: 5px;
 	}
 	.boximg{
 		height: 210px;
@@ -63,5 +63,45 @@ page-detailcircuit {
 	ion-slides {
 		height: auto;
 	}
+	.card-no-padding {
+		padding: 0 !important;
+	}
+	.row-meteo p {
+		font-family: 'Montserrat Regular';
+    	font-size: 12px;
+	}
+	.row-meteo .icon{
+		font-size: 28px;
+	}
+	.btn-standard {
+		text-transform: capitalize !important;
+	}
+	.evaluate-text-aravis{
+		font-family: 'Montserrat Black';
+		font-size: 14px;
+		font-weight: 900;
+	}
+
+	.evaluate-text-title{
+		font-family: 'Montserrat Regular';
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.comment-user-name {
+		margin-top: 5%;
+		font-size: 16px;
+		font-family: 'Montserrat Regular';
+	}
+	.comment-date{
+		margin-top: 10%;
+		font-size: 12px;
+		font-family: 'Montserrat Light';
+		float: right;
+	}
+	.comment-content{
+		font-size: 12px;
+		font-family: 'Montserrat Light';
+	}
+	
 
 }
